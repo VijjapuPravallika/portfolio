@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .icons{
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+           margin-top: 180px;
+        }
+        .contact{
+            width:60px;
+            height:60px;
+            margin:10px;
+            
+        }
+        .contact:hover{
+            transform:scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center><h1>Contact Me</h1></center>
+    </header>
+    <div class="icons">
+        <a href="#"><img src="data:image/png;base64,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" class="contact"></a>
+        <a href="#"><img src="data:image/png;base64,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" class="contact"></a>
+        <a href="#"><img src="https://png.pngtree.com/png-vector/20201028/ourmid/pngtree-phone-icon-in-solid-circle-png-image_2380227.jpg" class="contact"></a>
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAYFBMVEUAAAD///99fX1PT0+Li4teXl76+vrp6enExMQODg4iIiJHR0cbGxuqqqrk5OTY2Njz8/MpKSmgoKBUVFRkZGSampoyMjLKysrR0dEUFBRAQEBubm65ubmxsbGEhISRkZGYq/OaAAACXklEQVRoge3bXVOrMBAG4A0fAdtCQUrp0Zb+/38pUnECu/YExux6se+NM8bpIxASErpgHrF5Er8AQ17iJLdfKDx+FDsOeMqucPBsz0l/Zp9N+PHAbQMcjg88E7AHPRtx9nP+yP4TL2RsgMKAZe3nbnYWcikbBjqRwxOI5fAYWMZUOoK05g/mnDa1jBx144xf5Sd2Oi3Ndy7ME09v3FSsBz+3hzR8drq0DePMVyLcsE19EbaN4brnOgp/ZcIthV947DNlcz3h4r4+9neei97QOM/NVpN4+Y8Fh4rCOx4bcgq/M+EnCmeyAS7Y5hpjhhUcuuolm41PfPXGiEMzG2JLVntYQDpdnu96f6d+vWTWlh3XPbbMod4xjWsajUbjnbQtbrciOW3c7dnfk2Xq583nqS1yVhxlu2VCItZL7jL1jpu/1tB9Nv+17dLfwN2dwgQ3j0ZzxA3mev4B+V28Jegh1TsDTj7zjmmD49Qpn3INitvm+sRep6/Hi6f2qiex9af9v/HfzwqAV5K4/1ukELjxXd8HwX0PPQheeR76Vjxro/eozX5o9Rxmt+HldDulxA6m8R5pNuHuNb2R/5zf6mcLPu9P1IhX+W3bb8CXuwfUPOP3YLEBX35wTPyNX49bj+NtE6LTRYFwvIgnHvRC4fhzic8IheMZk9jBDYRb3JGJHhfqyBVXXHHFFVdcccUVV1xxxRVXPBSOvgLp+3bJCbE+773wtz5aZvZeDbVG+BVSjf6mZ/7ah0bzxyJaUCFaSiJaRCNaPiRaOCVaMiZbLCdbJihaIClbGmpEi2KNUDnwB4PlIIjoswlmAAAAAElFTkSuQmCC" class="contact"></a>
+    </div>
+</body>
+</html>
